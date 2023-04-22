@@ -18,21 +18,15 @@
 @media screen and (max-width: 600px) {
     .container-technologies {
         display: block;
-        /* cambia a display block para dispositivos móviles */
         overflow-x: auto;
-        /* cambia a overflow-x auto para dispositivos móviles */
         white-space: nowrap;
-        /* evita que los iconos se envuelvan */
         width: 100%;
-        /* ajusta la anchura del contenedor según tus necesidades */
-        height: 120px;
-        /* ajusta la altura del contenedor según tus necesidades */
+        height: 40vh;
+        margin-top:-20%;
     }
 
     .icono-technologies {
         width: 70px;
-        /* ajusta la anchura de los iconos según tus necesidades */
         height: 70px;
-        /* ajusta la altura de los iconos según tus necesidades */
     }
 }
