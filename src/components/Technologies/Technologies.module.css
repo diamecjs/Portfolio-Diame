@@ -1,0 +1,38 @@
+.container-technologies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    height: 30vh;
+    margin-bottom: -10%;
+    background-color: rgb(224, 203, 17);
+}
+
+.icono-technologies {
+    display: inline-block;  
+    margin: 1.5%;
+    width: 70px;  
+    height: 70px;   
+}
+
+@media screen and (max-width: 600px) {
+    .container-technologies {
+        display: block;
+        /* cambia a display block para dispositivos móviles */
+        overflow-x: auto;
+        /* cambia a overflow-x auto para dispositivos móviles */
+        white-space: nowrap;
+        /* evita que los iconos se envuelvan */
+        width: 100%;
+        /* ajusta la anchura del contenedor según tus necesidades */
+        height: 120px;
+        /* ajusta la altura del contenedor según tus necesidades */
+    }
+
+    .icono-technologies {
+        width: 70px;
+        /* ajusta la anchura de los iconos según tus necesidades */
+        height: 70px;
+        /* ajusta la altura de los iconos según tus necesidades */
+    }
+}
