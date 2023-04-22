@@ -198,7 +198,7 @@ ul li {
         background-color: black;
         padding: 15%;
         width: auto;
-        height: 130vh;
+        height: 100%;
         object-fit: contain;
         
     }
