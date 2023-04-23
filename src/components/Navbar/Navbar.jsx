@@ -44,7 +44,7 @@ export const NavBar = () => {
           </li>
           <li>
             <a href="/certifications" onClick={() => setMenuOpen(false)}>
-              Certifications
+              Certificaciones
             </a>
           </li>
           <li>
