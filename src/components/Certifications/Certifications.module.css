@@ -96,7 +96,7 @@
     }
 
     .img-certifications {
-        margin-left: 0;
+        margin-left: 6%;
         margin-top: -5%;
         width: 100%;
     }
@@ -116,6 +116,7 @@
     .cards-certifications img{
       width: 250px;
       height: 200px;
+      margin: 5%;
     }
     
 

@@ -3,6 +3,10 @@ import styles from "./Technologies.module.css"
 
 const Technologies = () => {
   return (
+    <div>
+      <div className={styles["title-home"]}>
+      <h1 className={styles["h1-home"]}>Tecnologías</h1>
+      </div>
     <div className={styles["container-technologies"]}>
          <img
        className={styles["icono-technologies"]}
@@ -58,6 +62,7 @@ const Technologies = () => {
        className={styles["icono-technologies"]}
         src="https://cdn-icons-png.flaticon.com/512/4492/4492311.png"
         width={70} height={70}/>
+    </div>
     </div>
   );
 };

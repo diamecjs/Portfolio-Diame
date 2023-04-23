@@ -6,7 +6,7 @@ import ContactMe from "../ContactMe/ComtactMe";
 import Projects from "../Projects/Projects";
 import Footer from "../Footer/Footer";
 import Technologies from "../Technologies/Technologies";
-import styles from "./Home.module.css"
+
 
 
 const Home = () => {
@@ -21,7 +21,6 @@ const Home = () => {
       <div id="contact-me">
       <ContactMe/>
       </div>
-      <h1 className={styles["h1-home"]}>Tecnologías</h1>
       <Technologies/>
       <Projects />
       <Footer />
