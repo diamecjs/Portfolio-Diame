@@ -7,7 +7,7 @@
 
 .content {
     display: flex;
-    width: 750px;
+    width: auto;
     height: 47px;
     color: #000000;
     font-size: 48px;
@@ -84,7 +84,7 @@ ul li {
     display: flex;
     background-color: black;
     padding: 15%;
-    width: 100%;
+    width: auto;
     height: 100%;
     object-fit: contain;
     
@@ -268,3 +268,33 @@ ul li {
 
 
 }
+@media screen and (max-width: 767px) and (min-width: 480px) {
+    .contenedor {
+      width: auto;
+    }
+    .astronauta-contactme {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 70%;
+        margin-top: 55%;
+        margin-left: -120%;
+    }
+
+  }
+  
+ 
+  @media screen and (max-width: 479px) {
+    .contenedor {
+      width: auto;
+    }
+    .astronauta-contactme {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        
+    }
+
+  }
