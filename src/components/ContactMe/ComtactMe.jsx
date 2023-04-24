@@ -50,8 +50,10 @@ const ContactMe = () => {
                     height={60}
                 />
             </a>
-            <img className={styles["astronauta-contactme"]}
+            <div className={styles["astronauta-contactme"]}>
+            <img
             src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1682095873/HD-wallpaper-astronaut-black-space-plane-removebg-preview_is1kxi.png" />
+            </div>
             </div>
             <div className={styles["button-descarga"]}> 
             <a

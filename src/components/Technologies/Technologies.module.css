@@ -4,7 +4,7 @@
     justify-content: center;
     margin-top: 2%;
     height: 30vh;
-    margin-bottom: -10%;
+    margin-bottom: 10%;
     background-color: rgb(224, 203, 17);
 }
 
@@ -66,5 +66,10 @@
 
     .h1-home {
         margin-top: 10%;
+    }
+}
+@media screen and (min-width: 375px) {
+    .container-technologies {
+    margin-bottom: -6%;
     }
 }

@@ -6,24 +6,35 @@ import ContactMe from "../ContactMe/ComtactMe";
 import Projects from "../Projects/Projects";
 import Footer from "../Footer/Footer";
 import Technologies from "../Technologies/Technologies";
-
+import styles from "./Home.module.css"
 
 
 const Home = () => {
 
   return (
-    <div>
+    <div className={styles["home-container"]}>
+      <div className={styles["nav-home"]}>
       <Navbar />
+      </div>
+      <div presentacion-home>
       <Presentacion />
-      <div id="about-me">
+      </div>
+      <div className={styles["about-home"]} id="about-me">
       <AboutMe/>
       </div>
-      <div id="contact-me">
+      <div className={styles["contact-home"]} id="contact-me">
       <ContactMe/>
       </div>
+      <div className={styles["technologies-home"]}>
       <Technologies/>
+      </div>
+      <div className={styles["projects-home"]}>
       <Projects />
+      </div>
+      <div className={styles["footer-home"]}>
       <Footer />
+      </div>
+
     </div>
   );
 };
