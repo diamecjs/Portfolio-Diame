@@ -95,6 +95,10 @@
     height: 60px;
     margin: 20px;
   }
+
+  .a-contactme img{
+    width: 60px;
+  }
   
   .a-contactme::before {
     content: "";
@@ -128,8 +132,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -35%;
-    margin-left: 49%;
+    margin-top: -36%;
+    margin-left: 45%;
     position: relative;
   }
   
@@ -364,13 +368,13 @@
 @media screen and (max-width: 414px) {
     .astronauta-contactme{
         width: 50%;
-       margin-top: 68%;
+       margin-top: 38%;
       
     }
 
     .astronauta-contactme img {
         margin-left: -30%;
-        
+        width: 300px;
     }
 
     .contactme-icons {
@@ -386,7 +390,7 @@
     .astronauta-contactme{
         width: 50%;
        margin-top: 80%;
-       margin-left: -60%;
+       margin-left: -80%;
     }
     .button-descarga {
         margin-top: -88%;
@@ -394,7 +398,33 @@
     }
 
 }
+@media screen and (max-width: 390px) {
+    .astronauta-contactme {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -80%;
+        margin-top: 80%;
+      
 
+    }
+
+    .astronauta-contactme img {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 393px) {
+    .astronauta-contactme {
+        margin-left: -90%;
+        margin-top: 80%;
+      
+
+    }
+
+    .astronauta-contactme img {
+        width: 300px;
+    }
+}
 
 @media screen and (max-width: 375px) {
     .contenedor {
@@ -455,25 +485,35 @@
 }
 @media screen and (max-width: 280px){
     .astronauta-contactme {
-        margin-top: 5%;
+        margin-top: 25%;
        
     }
     .astronauta-contactme img {
-        width: 250px;
+        width: 200px;
+        margin-left: 80%;
     }
     .contactme-icons {
-        background-color: black;
-        padding-top: 80%;
-        margin-left: -10%;
+        padding-top: 90%;
+        margin-left: -20%;
+        padding: 5%;
+
+       
     }
     .a-contactme img{
+        padding-top: 200%;
         width: 30px;
         margin: 2px;
+        
     }
     .button-descarga {
         
-        margin-top: -150%;
+        margin-top: -120%;
         margin-left: 8%;
     }
+    .button-des {
+        width: 150px;
+        height: 80px;
+      
+      }
 
 }

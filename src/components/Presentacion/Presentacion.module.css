@@ -90,3 +90,17 @@ width: 350px;
     }
     
 }
+@media screen and (max-width: 290px) {
+  .imagen-presentacion img{
+    width: 250px;
+    }
+    .h1-presentacion {
+      font-size: 30px;
+   
+    }
+  
+    .h3-presentacion {
+    
+      font-size: 12px;
+    }
+}
