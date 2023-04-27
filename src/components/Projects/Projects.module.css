@@ -209,3 +209,21 @@
   }
 
 }
+@media screen and (max-width: 320px) {
+  .card-front {
+    width: 290px;
+    z-index: 2;
+  }
+  .card-front img {
+    width: 290px;
+    height: 245px;
+  }
+  .cards-1,
+  .cards-2,
+  .cards-3 {
+    position: relative;
+    width: 290px;
+    height: 250px;
+  
+  }
+}

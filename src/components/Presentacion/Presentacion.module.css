@@ -19,6 +19,10 @@
   width: auto;
 }
 
+.imagen-presentacion img{
+width: 350px;
+}
+
 .texto-presentacion {
   display: inline-block;
   vertical-align: middle;
@@ -79,4 +83,10 @@
     margin-top: 20px;
     font-size: 22px;
   }
+}
+@media screen and (max-width: 320px) {
+  .imagen-presentacion img{
+    width: 290px;
+    }
+    
 }

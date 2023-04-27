@@ -9,7 +9,7 @@ const Presentacion = () => {
         <div className={styles["container-presentacion"]}>
 
             <div className={styles["imagen-presentacion"]}>
-                <img src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1681963452/diame-removebg-preview_2_lqgqpd.png" alt="Profile" width={350} height={350} />
+                <img src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1681963452/diame-removebg-preview_2_lqgqpd.png" alt="Profile" />
             </div>
             <div className={styles["texto-presentacion"]}>
                 <h2 className={styles["h2-presentacion"]}>Hola! Soy</h2>

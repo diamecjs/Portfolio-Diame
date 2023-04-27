@@ -22,8 +22,7 @@ const ContactMe = () => {
             <a className={styles["a-contactme"]} href="mailto:diame.cjs@gmail.com" target="_blank">
                 <img
                     src="https://cdn-icons-png.flaticon.com/512/2875/2875394.png"
-                    width={60}
-                    height={60}
+                   
                 />
             </a>
             <a
@@ -32,22 +31,19 @@ const ContactMe = () => {
             >
                 <img
                     src="https://cdn-icons-png.flaticon.com/512/1383/1383262.png"
-                    width={60}
-                    height={60}
+                
                 />
             </a>
             <a className={styles["a-contactme"]} href="https://www.github.com/diamecjs" target="_blank">
                 <img
                     src="https://cdn-icons-png.flaticon.com/512/2504/2504911.png"
-                    width={60}
-                    height={60}
+                  
                 />
             </a>
             <a className={styles["a-contactme"]} href="https://wa.me/573148880850" target="_blank">
                 <img
                     src="https://cdn-icons-png.flaticon.com/512/1383/1383269.png"
-                    width={60}
-                    height={60}
+                 
                 />
             </a>
             <div className={styles["astronauta-contactme"]}>
