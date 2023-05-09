@@ -50,7 +50,7 @@
   flex-wrap: wrap;
 }
 
-.card-front img {
+.card-front img  {
   width: 500px;
   height: 350px;
 }
