@@ -375,6 +375,7 @@
     .astronauta-contactme img {
         margin-left: -30%;
         width: 300px;
+        margin-top: 5%;
     }
 
     .contactme-icons {
@@ -389,7 +390,7 @@
 @media screen and (max-width: 412px){
     .astronauta-contactme{
         width: 50%;
-       margin-top: 80%;
+       margin-top: 50%;
        margin-left: -80%;
     }
     .button-descarga {
@@ -404,25 +405,19 @@
         justify-content: center;
         align-items: center;
         margin-left: -80%;
-        margin-top: 80%;
+        margin-top: 50%;
       
 
     }
 
     .astronauta-contactme img {
         width: 300px;
+        margin-top: 5%;
     }
 }
 @media screen and (max-width: 393px) {
-    .astronauta-contactme {
-        margin-left: -90%;
-        margin-top: 80%;
-      
-
-    }
-
-    .astronauta-contactme img {
-        width: 300px;
+    .astronauta-contactme img{
+        margin-top: 10%;
     }
 }
 
