@@ -15,6 +15,9 @@ const ContactMe = () => {
           <p className={styles["contactme-p"]}>]</p>
         </div>
       </div>
+        <div className={styles["astronauta-contactme"]}>
+          <img src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1683652448/asroKG4fzae8CkIT4lBmL-transformed-removebg-preview_rugo0u.png" />
+        </div>
       <div className={styles["contactme-icons"]}>
         <a
           className={styles["a-contactme"]}
@@ -52,17 +55,14 @@ const ContactMe = () => {
             src="https://cdn-icons-png.flaticon.com/512/1383/1383269.png"
           />
         </a>
-        <div className={styles["astronauta-contactme"]}>
-          <img src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1682095873/HD-wallpaper-astronaut-black-space-plane-removebg-preview_is1kxi.png" />
-        </div>
       </div>
-      <div className={styles["button-descarga"]}>
+      <div>
         <a
           href="https://drive.google.com/file/d/1nPRjsKDq7ePcKWk6fbiAXzMMb7b4Jv94/view?usp=share_link "
           target="_blank"
           download="CV Diamela"
         >
-          <button className={styles["button-des"]}>
+          <button className={styles["button-descarga"]}>
             Descarga Curriculum
           </button>
         </a>

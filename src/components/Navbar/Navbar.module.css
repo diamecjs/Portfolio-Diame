@@ -64,7 +64,7 @@
   position: absolute;
   margin-top: 6%;
   margin-left: 2%;
-  width: 60px;
+  width: 40px;
   cursor: pointer;
 }
 
@@ -75,7 +75,7 @@
   position: absolute;
   margin-top: 10%;
   margin-left: 95%;
-  width: 55px;
+  width: 35px;
   cursor: pointer;
 }
 .button-language-esp:hover {
