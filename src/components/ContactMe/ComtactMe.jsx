@@ -48,7 +48,7 @@ const ContactMe = () => {
         </a>
         <a
           className={styles["a-contactme"]}
-          href="https://wa.me/573148880850"
+          href="https://wa.me/573215864622"
           target="_blank"
         >
           <img
