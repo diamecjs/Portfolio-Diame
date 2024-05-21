@@ -58,7 +58,7 @@ const ContactMe = () => {
       </div>
       <div>
         <a
-          href="https://drive.google.com/file/d/15LrB7Oinv4UYNTnoa1coNpRy-l6-auOw/view?usp=drivesdk"
+          href="https://drive.google.com/file/d/1y9V5uwG8g1e70uBTwcIqPAbgXnWhx2hU/view?usp=sharing"
           target="_blank"
           download="CV Diamela"
         >
