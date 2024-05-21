@@ -19,9 +19,17 @@ const Certifications = () => {
       image:
         "https://res.cloudinary.com/dsjsbp6qy/image/upload/v1677896406/certificados/diploma-npm_page-0001_kfiaev.jpg",
     },
+     {
+      image:
+        "https://res.cloudinary.com/dsjsbp6qy/image/upload/v1716315123/todocode1_cczyvo.png",
+    },
     {
       image:
         "https://res.cloudinary.com/dsjsbp6qy/image/upload/v1677896406/certificados/diploma-react-native_page-0001_cqmdzk.jpg",
+    },
+      {
+      image:
+        "https://res.cloudinary.com/dsjsbp6qy/image/upload/v1716315120/todocode2_rzcuci.png",
     },
     {
       image:
